@@ -1,10 +1,10 @@
-The parameter P is for reducing CTE, but the car is oscillating.
+The parameter P is for reducing CTE.
 The parameter D is for reducing the quick change of CTE.
 The parameter I is for reducing the steady state error of CTE.
 
 I choose the each parameter by manual tuning.
 
-D parameter is set to relatively large value for smooth driving.
-P and I parameters are set to relatively small value.
-If P and I parameters are large value, the car is oscillating.
+Kp and Kd parameter is set to relatively large value for smooth driving.
+Ki parameters are set to relatively small value.
+If Ki parameters are large value, the car is oscillating.
 
